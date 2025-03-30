@@ -3,8 +3,6 @@
 int main(){
 
     //carta 1
-    printf("Carta 1: \n\n");
-
     char estado[] = "SP";
     char codigo[] = "A01";
     char nome[] = "São Paulo";
@@ -23,6 +21,7 @@ int main(){
     int numero2 = 30;
 
     //print da carta 1
+    printf("Carta 1: \n\n");
     printf("Estado: %s\n", estado);
     printf("Código da cidade: %s\n", codigo);
     printf("Nome da cidade: %s\n", nome);
@@ -33,8 +32,8 @@ int main(){
 
     printf("\n"); //Espaço entre cartas
 
+    //pint da carta 2
     printf("Carta 2: \n\n");
-    
     printf("Estado: %s\n", estado2);
     printf("Código da cidade: %s\n", codigo2);
     printf("Nome da cidade: %s\n", nome2);
